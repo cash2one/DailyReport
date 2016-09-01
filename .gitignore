@@ -1,4 +1,7 @@
-# ignore files
-
+#ignore files
+.vs
 DailyReport.*
 DailyReportServer.*
+
+/DailyReport/obj
+/DailyReportServer/obj
