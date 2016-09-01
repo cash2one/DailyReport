@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DailyReport>
+  <Config>
+    <Port>51001</Port>
+    <Mail>
+      <Send>
+        <Host>mail.shandagames.com</Host>
+        <Port>465</Port>
+        <User>xufeng04@shandagames.com</User>
+        <Pass>1qaz@WSX123123</Pass>
+      </Send>
+      <Info>
+        <From>xufeng04@shandagames.com</From>
+        <To>wangfu@shandagames.com</To>
+      </Info>
+    </Mail>
+    <Holidays>
+      <Date From="2016/06/01" To="2016/06/03" />
+      <Date From="2016/10/01" To="2016/10/07" />
+    </Holidays>
+    <Users>
+      <User Name="刘倩伟" Group="策划" />
+      <User Name="陈伟宏" Group="策划" />
+      <User Name="苏晓彤" Group="策划" />
+      <User Name="孔周祺" Group="策划" />
+      <User Name="王逸飞" Group="策划" />
+      <User Name="任绮琛" Group="策划" />
+      <User Name="管  菲" Group="策划" />
+    </Users>
+  </Config>
+  <Storage>
+    <Days Date="2016年06月17日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年06月20日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年06月21日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年06月22日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年06月23日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年06月24日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年06月27日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年06月28日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年06月29日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年06月30日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月01日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月04日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月05日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月06日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月07日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月08日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月11日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月12日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月13日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月14日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月15日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月18日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月19日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月20日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月21日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月22日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月25日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月26日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月27日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月28日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年07月29日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月01日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月02日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月03日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月04日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月05日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月08日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月09日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月10日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月11日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月12日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月15日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月16日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月17日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月18日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月19日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月22日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月23日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月24日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月25日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月26日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月29日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月30日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年08月31日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+    <Days Date="2016年09月01日" Commit="False">
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孔周祺" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+      <Report Name="管  菲" />
+    </Days>
+  </Storage>
+</DailyReport>

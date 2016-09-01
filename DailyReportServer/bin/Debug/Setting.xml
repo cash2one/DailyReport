@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Setting>
+	<Project Source="Blood1.xml" Name="血族1"/>
+	<Project Source="Blood2.xml" Name="血族2"/>
+</Setting>

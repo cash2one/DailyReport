@@ -1,0 +1,13 @@
+﻿<Window x:Class="DailyReport.WhoYouAre"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DailyReport"
+        mc:Ignorable="d"
+        Title="WhoYouAre" Height="76" Width="350" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded">
+	<StackPanel x:Name="Panel" Orientation="Horizontal" HorizontalAlignment="Center">
+		<TextBox x:Name="UserName" Height="25" Width="240" Margin="3" FontSize="13.333" GotFocus="UserName_GotFocus" LostFocus="UserName_LostFocus" Background="LightGray" />
+		<Button Content="Confirm" Height="25" Width="60" Click="button_Click" IsDefault="True"/>
+	</StackPanel>
+</Window>

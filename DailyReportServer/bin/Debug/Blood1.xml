@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DailyReport>
+  <Config>
+    <Port>52001</Port>
+    <Time>13:00:00</Time>
+    <Mail>
+      <Send>
+        <Host>mail.shandagames.com</Host>
+        <Port>465</Port>
+        <User>xufeng04@shandagames.com</User>
+        <Pass>1qaz@WSX123123</Pass>
+      </Send>
+      <Info>
+        <From>xufeng04@shandagames.com</From>
+        <To>xufeng04@shandagames.com</To>
+      </Info>
+    </Mail>
+    <Holidays>
+      <Date From="2016/06/01" To="2016/06/03" />
+      <Date From="2016/10/01" To="2016/10/07" />
+    </Holidays>
+    <Users>
+      <User Group="服务器" Name="杜立波" Alive="True" />
+      <User Group="服务器" Name="徐枫" Alive="True" />
+      <User Group="客户端" Name="老刘" Alive="True" />
+    </Users>
+  </Config>
+  <Storage>
+    <Days Date="2016年06月06日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" UpdateTime="2016年06月07日 01:42:15">aasdfasf</Report>
+      <Report Name="老刘" UpdateTime="2016年06月06日 07:17:34">asdfqwer xzcvaerfAS 阿斯蒂芬 阿萨法去玩儿
+            </Report>
+    </Days>
+    <Days Date="2016年06月07日" Commit="False">
+      <Report Name="杜立波" UpdateTime="2016年06月07日 11:56:35">adsfqewrasdf</Report>
+      <Report Name="徐枫" />
+      <Report Name="老刘" UpdateTime="2016年06月07日 12:02:52">ccccccccc</Report>
+    </Days>
+    <Days Date="2016年06月01日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年06月02日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年06月03日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年06月08日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年06月09日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年06月10日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年06月13日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年06月14日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年06月15日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年06月16日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年06月17日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年06月20日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年06月21日" Commit="True">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年06月22日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年06月23日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年06月24日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年06月27日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年06月28日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年06月29日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年06月30日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月01日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月04日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月05日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月06日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月07日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月08日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月11日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月12日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月13日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月14日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月15日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月18日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月19日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月20日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月21日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月22日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月25日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月26日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月27日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月28日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年07月29日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月01日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月02日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月03日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月04日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月05日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月08日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月09日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月10日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月11日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月12日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月15日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月16日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月17日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月18日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月19日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月22日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月23日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月24日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月25日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月26日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月29日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月30日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年08月31日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+    <Days Date="2016年09月01日" Commit="False">
+      <Report Name="杜立波" />
+      <Report Name="徐枫" />
+      <Report Name="老刘" />
+    </Days>
+  </Storage>
+</DailyReport>

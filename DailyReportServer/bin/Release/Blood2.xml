@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DailyReport>
+  <Config>
+    <Port>51002</Port>
+    <Mail>
+      <Send>
+        <Host>mail.shandagames.com</Host>
+        <Port>465</Port>
+        <User>xufeng04@shandagames.com</User>
+        <Pass>1qaz@WSX123123</Pass>
+      </Send>
+      <Info>
+        <From>xufeng04@shandagames.com</From>
+        <To>ls_blood@shandagames.com</To>
+      </Info>
+    </Mail>
+    <Holidays>
+      <Date From="2016/06/01" To="2016/06/03" />
+      <Date From="2016/10/01" To="2016/10/07" />
+    </Holidays>
+    <Users>
+      <User Name="刘鸿毅" Group="客户端" />
+      <User Name="徐颜程" Group="客户端" />
+      <User Name="陈振飞" Group="客户端" />
+      <User Name="周于超" Group="客户端" />
+      <User Name="张帅" Group="客户端" />
+      <User Name="丁杰" Group="客户端" />
+      <User Name="曾毅" Group="客户端" />
+      <User Name="杜立波" Group="服务器" />
+      <User Name="张玉鹏" Group="服务器" />
+      <User Name="童俊杰" Group="服务器" />
+      <User Name="许培" Group="服务器" />
+      <User Name="蒋磊" Group="服务器" />
+      <User Name="郭旭" Group="服务器" />
+      <User Name="涂魏" Group="服务器" />
+      <User Name="刘倩伟" Group="策划" />
+      <User Name="陈伟宏" Group="策划" />
+      <User Name="苏晓彤" Group="策划" />
+      <User Name="孙磊" Group="策划" />
+      <User Name="孔周祺" Group="策划" />
+      <User Name="管菲" Group="策划" />
+      <User Name="陈然" Group="策划" />
+      <User Name="王逸飞" Group="策划" />
+      <User Name="任绮琛" Group="策划" />
+    </Users>
+  </Config>
+  <Storage>
+    <Days Date="2016年06月17日" Commit="False">
+      <Report Name="刘鸿毅" />
+      <Report Name="徐颜程" />
+      <Report Name="陈振飞" />
+      <Report Name="周于超" />
+      <Report Name="张帅" />
+      <Report Name="丁杰" />
+      <Report Name="曾毅" />
+      <Report Name="杜立波" />
+      <Report Name="张玉鹏" />
+      <Report Name="童俊杰" />
+      <Report Name="许培" />
+      <Report Name="蒋磊" />
+      <Report Name="郭旭" />
+      <Report Name="涂魏" />
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孙磊" />
+      <Report Name="孔周祺" />
+      <Report Name="管菲" />
+      <Report Name="陈然" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+    </Days>
+    <Days Date="2016年06月20日" Commit="False">
+      <Report Name="刘鸿毅" />
+      <Report Name="徐颜程" />
+      <Report Name="陈振飞" />
+      <Report Name="周于超" />
+      <Report Name="张帅" />
+      <Report Name="丁杰" />
+      <Report Name="曾毅" />
+      <Report Name="杜立波" />
+      <Report Name="张玉鹏" />
+      <Report Name="童俊杰" />
+      <Report Name="许培" />
+      <Report Name="蒋磊" />
+      <Report Name="郭旭" />
+      <Report Name="涂魏" />
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孙磊" />
+      <Report Name="孔周祺" />
+      <Report Name="管菲" />
+      <Report Name="陈然" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+    </Days>
+    <Days Date="2016年06月21日" Commit="False">
+      <Report Name="刘鸿毅" />
+      <Report Name="徐颜程" />
+      <Report Name="陈振飞" />
+      <Report Name="周于超" />
+      <Report Name="张帅" />
+      <Report Name="丁杰" />
+      <Report Name="曾毅" />
+      <Report Name="杜立波" />
+      <Report Name="张玉鹏" />
+      <Report Name="童俊杰" />
+      <Report Name="许培" />
+      <Report Name="蒋磊" />
+      <Report Name="郭旭" />
+      <Report Name="涂魏" />
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孙磊" />
+      <Report Name="孔周祺" />
+      <Report Name="管菲" />
+      <Report Name="陈然" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+    </Days>
+    <Days Date="2016年06月22日" Commit="False">
+      <Report Name="刘鸿毅" />
+      <Report Name="徐颜程" />
+      <Report Name="陈振飞" />
+      <Report Name="周于超" />
+      <Report Name="张帅" />
+      <Report Name="丁杰" />
+      <Report Name="曾毅" />
+      <Report Name="杜立波" />
+      <Report Name="张玉鹏" />
+      <Report Name="童俊杰" />
+      <Report Name="许培" />
+      <Report Name="蒋磊" />
+      <Report Name="郭旭" />
+      <Report Name="涂魏" />
+      <Report Name="刘倩伟" />
+      <Report Name="陈伟宏" />
+      <Report Name="苏晓彤" />
+      <Report Name="孙磊" />
+      <Report Name="孔周祺" />
+      <Report Name="管菲" />
+      <Report Name="陈然" />
+      <Report Name="王逸飞" />
+      <Report Name="任绮琛" />
+    </Days>
+  </Storage>
+</DailyReport>

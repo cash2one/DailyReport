@@ -1,0 +1,52 @@
+﻿<Window x:Class="DailyReport.Setting"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DailyReport"
+        mc:Ignorable="d"
+        Title="Setting" Height="300" Width="320" ResizeMode="NoResize" Loaded="Window_Loaded">
+	<Window.Resources>
+		<XmlDataProvider x:Key="Config" Source="pack://siteoforigin:,,,/Config.xml" XPath="/Config" />
+	</Window.Resources>
+	<Border>
+		<Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="32"/>
+				<RowDefinition/>
+				<RowDefinition Height="32"/>
+			</Grid.RowDefinitions>
+			<Grid.DataContext>
+				<Binding Source="{StaticResource Config}" />
+			</Grid.DataContext>
+			<DockPanel Grid.Row="0" LastChildFill="True">
+				<Label DockPanel.Dock="Left" Margin="5,3" VerticalAlignment="Center" Content="用户名："/>
+				<TextBox x:Name="UserName" Margin="5,3" VerticalAlignment="Center" Text="{Binding XPath=/Config/@Name, Mode=TwoWay}" />
+			</DockPanel>
+			<DockPanel Grid.Row="1" LastChildFill="True" Margin="5,3" Background="SkyBlue">
+				<StackPanel DockPanel.Dock="Top" Orientation="Horizontal" HorizontalAlignment="Right">
+					<Button DockPanel.Dock="Right" Content="+" Width="26" Margin="1" Click="OnAddNew"/>
+					<Button DockPanel.Dock="Right" Content="-" Width="26" Margin="1" Click="OnDelOld"/>
+				</StackPanel>
+				<DataGrid x:Name="dataGrid" DockPanel.Dock="Bottom" ItemsSource="{Binding XPath=Project}" 
+					  AutoGenerateColumns="False" 
+					  HorizontalGridLinesBrush="{DynamicResource {x:Static SystemColors.WindowFrameBrushKey}}"
+					  CanUserAddRows="True"
+					  CanUserDeleteRows="True">
+
+					<DataGrid.Columns>
+						<DataGridTextColumn Header="Project" Width="100" Binding="{Binding XPath=@Name}"/>
+						<DataGridTextColumn Header="Address" Width="120" Binding="{Binding XPath=@Host}"/>
+						<DataGridTextColumn Header="Port" Width="60" Binding="{Binding XPath=@Port}"/>
+					</DataGrid.Columns>
+				</DataGrid>
+			</DockPanel>
+			<DockPanel Grid.Row="2" LastChildFill="True" >
+				<Button DockPanel.Dock="Right" Width="60" Margin="5,5" Content="OK" Click="OnConfirm"/>
+				<Button DockPanel.Dock="Right" Width="60" Margin="5,5" Content="Cancel" IsCancel="True" />
+
+				<CheckBox x:Name="AutoRunCheck" DockPanel.Dock="Left" Margin="5,0" VerticalAlignment="Center" Content="开机启动" Click="OnAutoRunClicked" />
+			</DockPanel>
+		</Grid>
+	</Border>
+</Window>

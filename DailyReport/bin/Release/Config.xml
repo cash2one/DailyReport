@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config Name="徐枫">
+  <Project Name="血族1" Host="192.168.43.133" Port="51001" />
+  <Project Name="血族2" Host="192.168.43.133" Port="51002" />
+</Config>

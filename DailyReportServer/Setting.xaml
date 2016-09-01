@@ -1,0 +1,127 @@
+﻿<Window x:Class="DailyReportServer.Setting"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DailyReportServer"
+        mc:Ignorable="d"
+        Title="Setting" Height="400" Width="600" ResizeMode="NoResize">
+	<Window.Resources>
+		<XmlDataProvider x:Key="Setting" Source="pack://siteoforigin:,,,/Setting.xml" XPath="/Setting/Project" />
+		<Style TargetType="GroupBox">
+			<Setter Property="Margin" Value="0,10,0,0" />
+			<Setter Property="Padding" Value="3,10,3,3" />
+		</Style>
+	</Window.Resources>
+	<StackPanel Orientation="Vertical">
+		<ComboBox x:Name="Project" Margin="5,10,5,1"
+			ItemsSource="{Binding Source={StaticResource Setting}}"
+			DisplayMemberPath="@Name"
+			SelectionChanged="Project_SelectionChanged"/>
+
+		<Grid x:Name="ProjectSetting" Margin="5,3" DataContext="{Binding}">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="1*"/>
+				<ColumnDefinition Width="1*"/>
+			</Grid.ColumnDefinitions>
+			<Grid.RowDefinitions>
+				<RowDefinition/>
+			</Grid.RowDefinitions>
+			<StackPanel Grid.Column="1" Orientation="Vertical" Margin="5,0,0,0" >
+				<GroupBox Header="Common Setting">
+					<Grid>
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="1*"/>
+							<ColumnDefinition Width="2*"/>
+						</Grid.ColumnDefinitions>
+						<Grid.RowDefinitions>
+							<RowDefinition/>
+							<RowDefinition/>
+						</Grid.RowDefinitions>
+						<Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" Content="Listen Port：" />
+						<Label Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" Content="Mail Clock：" />
+
+						<TextBox x:Name="Port" Grid.Row="0" Grid.Column="1" Margin="3,2" Text="{Binding XPath=Port}" />
+						<TextBox x:Name="Time" Grid.Row="1" Grid.Column="1" Margin="3,2"  Text="{Binding XPath=Time}" />
+					</Grid>
+				</GroupBox>
+				<GroupBox Header="User Info" DataContext="{Binding XPath=Users}">
+					<StackPanel Orientation="Vertical">
+						<DataGrid x:Name="UserList" Height="100" AutoGenerateColumns="False" ItemsSource="{Binding XPath=User}">
+							<DataGrid.Resources>
+								<XmlDataProvider x:Key="Groups" XPath="/Groups/Group">
+									<x:XData>
+										<Groups>
+											<Group>服务器</Group>
+											<Group>客户端</Group>
+											<Group>策  划</Group>
+											<Group>质  检</Group>
+											<Group>其  他</Group>
+										</Groups>
+									</x:XData>
+								</XmlDataProvider>
+							</DataGrid.Resources>
+							<DataGrid.Columns>
+								<DataGridTextColumn Width="60" Header="Name" Binding="{Binding XPath=@Name}" />
+								<DataGridComboBoxColumn Width="60" Header="Group" ItemsSource="{Binding Source={StaticResource Groups}}" DisplayMemberPath=""/>
+								<DataGridCheckBoxColumn Width="40" Header="Alive" Binding="{Binding XPath=@Alive}" />
+							</DataGrid.Columns>
+						</DataGrid>
+						<StackPanel Orientation="Horizontal" Height="25" HorizontalAlignment="Right">
+							<Button Content="+" Width="25" Margin="1,1" Click="OnNewUser"/>
+							<Button Content="-" Width="25" Margin="1,1" Click="OnDelUser"/>
+						</StackPanel>
+					</StackPanel>
+				</GroupBox>
+			</StackPanel>
+
+			<StackPanel Grid.Column="0" Orientation="Vertical" Margin="0,0,5,0">
+				<GroupBox Header="SMTP Setting" DataContext="{Binding XPath=Mail/Send}">
+					<Grid>
+						<Grid.RowDefinitions>
+							<RowDefinition/>
+							<RowDefinition/>
+							<RowDefinition/>
+							<RowDefinition/>
+						</Grid.RowDefinitions>
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="1*"/>
+							<ColumnDefinition Width="3*"/>
+						</Grid.ColumnDefinitions>
+						<Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" Content="Host :"/>
+						<Label Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" Content="Port :"/>
+						<Label Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" Content="Username :"/>
+						<Label Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" Content="Password :"/>
+
+						<TextBox Grid.Row="0" Grid.Column="1" Margin="3,2" Text="{Binding XPath=Host}"/>
+						<TextBox Grid.Row="1" Grid.Column="1" Margin="3,2" Text="{Binding XPath=Port}"/>
+						<TextBox Grid.Row="2" Grid.Column="1" Margin="3,2" Text="{Binding XPath=User}"/>
+						<TextBox Grid.Row="3" Grid.Column="1" Margin="3,2" Text="{Binding XPath=Pass}"/>
+					</Grid>
+				</GroupBox>
+
+				<GroupBox Header="Mail Info" DataContext="{Binding XPath=Mail/Info}">
+					<Grid>
+						<Grid.RowDefinitions>
+							<RowDefinition/>
+							<RowDefinition/>
+						</Grid.RowDefinitions>
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="1*"/>
+							<ColumnDefinition Width="3*"/>
+						</Grid.ColumnDefinitions>
+						<Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" Content="From :"/>
+						<Label Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" Content="To :"/>
+
+						<TextBox Grid.Row="0" Grid.Column="1" Margin="3,2" Text="{Binding XPath=From}"/>
+						<TextBox Grid.Row="1" Grid.Column="1" Margin="3,2" Text="{Binding XPath=To}"/>
+					</Grid>
+				</GroupBox>
+			</StackPanel>
+		</Grid>
+		<StackPanel Orientation="Horizontal" Height="25" HorizontalAlignment="Right" Margin="5">
+			<Button Content="OK" Width="60" Margin="1,1" Click="OnConfirme"/>
+			<Button Content="Cancel" Width="60" Margin="1,1" IsCancel="True"/>
+		</StackPanel>
+	</StackPanel>
+</Window>
